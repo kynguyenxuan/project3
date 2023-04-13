@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/root.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Project3</title>
+</head>
+<body>
+    <section id="pages">
+        <section class="header">
+        <header class="header-nav .col-xl">
+         
+            <nav class="menu">
+                <!-- <div class="logo"> -->
+                    
+                <!-- </div> -->
+                <ul>
+                    <img src="./img/logo.png" alt="logo">
+                    <li>
+                        <a href="">
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            OUR PRODUCTS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            BLOG
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            CLIENT CENTER
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <svg width="26" viewBox="0 0 26 26" aria-label="user icon"><defs><style>.path{fill:none;stroke:#333333;stroke-width:1.5px;}</style></defs><circle class="path" cx="13" cy="9.7" r="4.1"></circle><path class="path" d="M19.51,18.1v2.31h-13V18.1c0-2.37,2.92-4.3,6.51-4.3S19.51,15.73,19.51,18.1Z"></path></svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg width="26" viewBox="0 0 26 26" aria-label="wishlist icon"><defs><style>.path{fill:none;stroke:#333;stroke-width:1.5px;}</style></defs><path class="path" d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path></svg>
+                            <p class="total-money-cart">$35.00</p>
+                        </a>
+                    </li>
+                    <li class="btn-cart">
+                        <a href="#">
+                            <svg width="26" viewBox="0 0 26 26" aria-label="cart icon"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><polygon class="path" points="20.4 20.4 5.6 20.4 6.83 10.53 19.17 10.53 20.4 20.4"></polygon><path class="path" d="M9.3,10.53V9.3a3.7,3.7,0,1,1,7.4,0v1.23"></path></svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg width="26" viewBox="0 0 26 26" aria-label="Search icon"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><circle class="path" cx="11.35" cy="11.35" r="6"></circle><line class="path" x1="15.59" y1="15.59" x2="20.65" y2="20.65"></line></svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="container-cart">
+        <div class="cart">
+            <form action="">
+                <div class="title-cart">
+                    <a href="#">
+                        <span class="close-cart">✕</span>
+                    </a>
+                    <h3><svg width="26" viewBox="0 0 26 26" aria-label="cart icon"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><polygon class="path" points="20.4 20.4 5.6 20.4 6.83 10.53 19.17 10.53 20.4 20.4"></polygon><path class="path" d="M9.3,10.53V9.3a3.7,3.7,0,1,1,7.4,0v1.23"></path></svg>
+                    Cart</h3>
+                </div>
+                <div class="product-cart">
+                    <div class="img-product-cart">
+                        <a href="">
+                        <img src="/img/babyshop-product11b-600x750.webp" alt="babyshop-product11b-600x750.webp">
+                        </a>
+                    </div>
+                    <div class="img-product-cart img-product-cart2">
+                        <h6>
+                            <a href="">
+                                Baby Set Hello Cutie
+                            </a>
+                        </h6>
+                        <dl>
+                            <dt>height:</dt>
+                            <dd>
+                                <p>62</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>age:</dt>
+                            <dd>
+                                <p>0 - 2 years</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>color:</dt>
+                            <dd>
+                                <p>yellow</p>
+                            </dd>
+                        </dl>
+                    <p class="price-01">Price:
+                        <span>$35.00</span>
+                    </p>
+                    </div>
+                    <div class="total-deatails">
+                        <span>$35.00</span>
+                    </div>
+                </div>
+                <div class="add-edit-delete">
+                    <div class="add-edit">
+                        <a href="">-</a>
+                        <input type="text" value="1">
+                        <a href="">+</a>
+                    </div>
+                    <div class="delete">
+                        <a href="">
+                            Remove
+                        </a>
+                    </div>
+                </div>
+                <div class="sub-total-price">
+                    <div class="subTotal">Subtotal
+                        <span>$0.00</span>
+                    </div>
+                    <div class="Total">
+                        Total
+                        <span>$0.00</span>
+                    </div>
+                    <div class="btn-pay">
+                        <a href="" class="btn-pay-link">
+                            <span>Processd to checkout</span>
+                        </a>
+                        <a href="" class="btn-pay-link2">
+                            <span>ViewCart</span>
+                        </a>
+                    </div>
+                </div>
+          
+
+            </form>
+        </div>
+        </section>
+        </section>
+        <section id="banner">
+            <div class="container-banner">
+                <div class="container-banner-deatails">
+                    <div class="banner-left-slider">
+                        <img class="slider1-left" src="./img/babyshop-slider-pic1.webp">
+                        <img class="slider2-left" src="./img/babyshop-slider-pic2.webp">
+                    </div>
+                    <div class="text-slider">
+                        <div class="text-slider-deatais">
+                            <span class="text-slider-itaclic">Collection</span>
+                            <span class="text-slider-bold">Autumn - Winter</span>
+                            <span class="text-slider-bold-2">2021</span>
+                            <a href="">
+                                <span>></span>
+                            </a>
+                        </div>
+                        <div class="text-slider-deatais">
+                            <span class="text-slider-itaclic">What's Trending</span>
+                            <span class="text-slider-bold-2">In 2022?</span>
+                            <a href="">
+                                <span>></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="div-btn-slider">
+                        <span class="btn1-slider btn1-slider2 btn01">
+                        <span class="title-btn1">AUTUMN-WINTER 2021</span>
+                        </span>
+                        <span class="btn2-slider btn2-slider2 btn01">
+                        <span class="title-btn2">WHAT TRENDING?</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="banner-right">
+                    <div class="slider1-right">
+                        <h3>Select your</h3>
+                        <span class="span-line highlight-word" style="z-index: 80;">
+                            child's age
+                            <span class="highlight-border"></span>
+                        </span>
+                      <div class="edit-age">
+                        <a href="">
+                            <span>0 - 2</span>
+                        </a>
+                        <a href="">
+                            <span>2 - 4</span>
+                        </a>
+                        <a href="">
+                            <span>4 - 6</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="slider2-right">
+                        <img src="./img/babyshop-promo-pic1.webp" alt="babyshop-promo-pic1">
+                        <h3>Duvet Cover Set
+                            <span>-40% off</span>
+                        </h3>
+                        <a href="">
+                            <span>VIEW COLLECTION</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brand">
+            <div class="container-brand-deatails">
+                <div class="container-brand">
+                    <div class="container-brand-item">
+                        <a href="">
+                            <span>Bed Sets</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" aria-hidden="true"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><line class="path" x1="25.23" y1="7" x2="3.23" y2="7"></line><polyline class="path" points="20.47 3.5 25.23 7 20.47 10.5"></polyline></g></svg>
+                        </a>
+                    </div>
+                    <div class="container-brand-item">
+                        <a href="">
+                            <span>Sleepwear</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" aria-hidden="true"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><line class="path" x1="25.23" y1="7" x2="3.23" y2="7"></line><polyline class="path" points="20.47 3.5 25.23 7 20.47 10.5"></polyline></g></svg>
+
+                        </a>
+                    </div>
+                    <div class="container-brand-item">
+                        <a href="">
+                            <span>Pyjamas</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" aria-hidden="true"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><line class="path" x1="25.23" y1="7" x2="3.23" y2="7"></line><polyline class="path" points="20.47 3.5 25.23 7 20.47 10.5"></polyline></g></svg>
+
+                        </a>
+                    </div>
+                    <div class="container-brand-item">
+                        <a href="">
+                            <span>Nighties</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" aria-hidden="true"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><line class="path" x1="25.23" y1="7" x2="3.23" y2="7"></line><polyline class="path" points="20.47 3.5 25.23 7 20.47 10.5"></polyline></g></svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="container-brand">
+                    <div class="container-brand-item">
+                        <a href="">
+                            <span>Bathrobes</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" aria-hidden="true"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><line class="path" x1="25.23" y1="7" x2="3.23" y2="7"></line><polyline class="path" points="20.47 3.5 25.23 7 20.47 10.5"></polyline></g></svg>
+
+                        </a>
+                    </div>
+                    <div class="container-brand-item">
+                        <a href="">
+                            <span>Classic</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" aria-hidden="true"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><line class="path" x1="25.23" y1="7" x2="3.23" y2="7"></line><polyline class="path" points="20.47 3.5 25.23 7 20.47 10.5"></polyline></g></svg>
+
+                        </a>
+                    </div>
+                    <div class="container-brand-item">
+                        <a href="">
+                            <span>Fancy</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" aria-hidden="true"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><line class="path" x1="25.23" y1="7" x2="3.23" y2="7"></line><polyline class="path" points="20.47 3.5 25.23 7 20.47 10.5"></polyline></g></svg>
+
+                        </a>
+                    </div>
+                    <div class="container-brand-item">
+                        <a href="">
+                            <span>Bed Sets</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" aria-hidden="true"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><line class="path" x1="25.23" y1="7" x2="3.23" y2="7"></line><polyline class="path" points="20.47 3.5 25.23 7 20.47 10.5"></polyline></g></svg>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-catalog">
+            <div class="container-product-text-catalog">
+                <div class="title-content-h3">
+                    <img src="./img/babyshop-sep1.png" alt="babyshop-sep1.png">
+                    <hr>
+                    <h3>Welcome in our 
+                        <span>child's world.</span>
+                        <br>
+                        All our products are made
+                        <br>from generations with passion.</h3>
+                </div>
+                <hr>
+                <div class="title-content-h2">
+                    <h2>Product's <br> Catalog</h2>
+                </div>
+                <hr>
+                <div class="container-product-item">
+                    <div class="container--product-item-deatails">
+                        <ul>
+                            <li class="container--product-item-deatails-li">
+                                <div class="frame-product">
+                                    <span class="onSale">On Sale</span>
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-hover" src="./img/babyshop-product1a-600x750.webp" alt="babyshop-product1a-600x750">
+                                            <img  src="./img/babyshop-product1b-600x750.webp" alt="babyshop-product11b-600x750">
+                                        </a>
+                                    </div>
+                                    <div class="img-link">
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><path d="M10.17,8.76l2.12-2.12a5,5,0,0,1,7.07,0h0a5,5,0,0,1,0,7.07l-2.12,2.12" class="path"></path><path d="M15.83,17.24l-2.12,2.12a5,5,0,0,1-7.07,0h0a5,5,0,0,1,0-7.07l2.12-2.12" class="path"></path><line x1="10.17" y1="15.83" x2="15.83" y2="10.17" class="path"></line></g></svg>
+                                        </a>
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-width:1.5px;}</style></defs><path class="path" d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path></svg>
+                                        </a>
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><line x1="7" y1="7" x2="11.29" y2="11.29" class="path"></line><line x1="14.62" y1="14.62" x2="18.91" y2="18.91" class="path"></line><polyline points="7 15.57 7 19 10.43 19" class="path"></polyline><polyline points="15.57 19 19 19 19 15.57" class="path"></polyline><polyline points="10.43 7 7 7 7 10.43" class="path"></polyline><polyline points="19 10.43 19 7 15.57 7" class="path"></polyline><line x1="14.71" y1="11.29" x2="19" y2="7" class="path"></line><line x1="7" y1="19" x2="11.29" y2="14.71" class="path"></line></svg>
+                                        </a>
+                                    </div>
+                                    <div class="infomation-text">
+                                        <a href="">
+                                        <h5>Duvet Cover Set Pumpkin Bear</h5>
+                                        </a>
+                                        <div class="color-infomation-text">
+                                            <ul>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #3A6380;"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #773D49;"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #BC2A32"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #EDC582"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    <span class="odd">$15.00</span>
+                                    <span class="new">$10.00</span>
+                                </span>
+                            </li>
+                            <li class="container--product-item-deatails-li">
+                                <div class="frame-product">
+                                    <!-- <span class="onSale">On Sale</span> -->
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-hover" src="./img/babyshop-product11b-600x750.webp" alt="babyshop-product11b-600x750.webp">
+                                            <img  src="./img/babyshop-product11c-600x750.webp" alt="babyshop-product11c-600x750.webp">
+                                        </a>
+                                    </div>
+                                    <div class="img-link">
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><path d="M10.17,8.76l2.12-2.12a5,5,0,0,1,7.07,0h0a5,5,0,0,1,0,7.07l-2.12,2.12" class="path"></path><path d="M15.83,17.24l-2.12,2.12a5,5,0,0,1-7.07,0h0a5,5,0,0,1,0-7.07l2.12-2.12" class="path"></path><line x1="10.17" y1="15.83" x2="15.83" y2="10.17" class="path"></line></g></svg>
+                                        </a>
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-width:1.5px;}</style></defs><path class="path" d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path></svg>
+                                        </a>
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><line x1="7" y1="7" x2="11.29" y2="11.29" class="path"></line><line x1="14.62" y1="14.62" x2="18.91" y2="18.91" class="path"></line><polyline points="7 15.57 7 19 10.43 19" class="path"></polyline><polyline points="15.57 19 19 19 19 15.57" class="path"></polyline><polyline points="10.43 7 7 7 7 10.43" class="path"></polyline><polyline points="19 10.43 19 7 15.57 7" class="path"></polyline><line x1="14.71" y1="11.29" x2="19" y2="7" class="path"></line><line x1="7" y1="19" x2="11.29" y2="14.71" class="path"></line></svg>
+                                        </a>
+                                    </div>
+                                    <div class="infomation-text">
+                                        <a href="">
+                                        <h5>Baby Set Hello Cutie</h5>
+                                        </a>
+                                        <div class="color-infomation-text">
+                                            <ul>
+                                                <!-- <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #3A6380;"></span>
+                                                    </a>
+                                                </li> -->
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #773D49;"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #BC2A32"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #EDC582"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    <!-- <span class="odd">$15.00</span> -->
+                                    <span class="new">$35.00</span>
+                                </span>
+                            </li>
+                            <li class="container--product-item-deatails-li">
+                                <div class="frame-product">
+                                    <!-- <span class="onSale">On Sale</span> -->
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-hover" src="./img/babyshop-product5a-600x750.webp" alt="babyshop-product5a-600x750.webp">
+                                            <img  src="./img/babyshop-product5b-600x750.webp" alt="babyshop-product5b-600x750.webp">
+                                        </a>
+                                    </div>
+                                    <div class="img-link">
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><path d="M10.17,8.76l2.12-2.12a5,5,0,0,1,7.07,0h0a5,5,0,0,1,0,7.07l-2.12,2.12" class="path"></path><path d="M15.83,17.24l-2.12,2.12a5,5,0,0,1-7.07,0h0a5,5,0,0,1,0-7.07l2.12-2.12" class="path"></path><line x1="10.17" y1="15.83" x2="15.83" y2="10.17" class="path"></line></g></svg>
+                                        </a>
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-width:1.5px;}</style></defs><path class="path" d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path></svg>
+                                        </a>
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><line x1="7" y1="7" x2="11.29" y2="11.29" class="path"></line><line x1="14.62" y1="14.62" x2="18.91" y2="18.91" class="path"></line><polyline points="7 15.57 7 19 10.43 19" class="path"></polyline><polyline points="15.57 19 19 19 19 15.57" class="path"></polyline><polyline points="10.43 7 7 7 7 10.43" class="path"></polyline><polyline points="19 10.43 19 7 15.57 7" class="path"></polyline><line x1="14.71" y1="11.29" x2="19" y2="7" class="path"></line><line x1="7" y1="19" x2="11.29" y2="14.71" class="path"></line></svg>
+                                        </a>
+                                    </div>
+                                    <div class="infomation-text">
+                                        <a href="">
+                                        <h5>Baby Robe Panda Space</h5>
+                                        </a>
+                                        <div class="color-infomation-text">
+                                            <ul>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: black;"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #773D49;"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #EEDCD8"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #EDC582"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    <!-- <span class="odd">$15.00</span> -->
+                                    <span class="new">$15.00</span>
+                                </span>
+                            </li>
+                            <li class="container--product-item-deatails-li">
+                                <div class="frame-product">
+                                    <!-- <span class="onSale">On Sale</span> -->
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-hover" src="./img/babyshop-product2a-600x750.webp" alt="babyshop-product2a-600x750.webp">
+                                            <img  src="./img/babyshop-product2b-600x750.webp" alt="babyshop-product2b-600x750.webp">
+                                        </a>
+                                    </div>
+                                    <div class="img-link">
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><path d="M10.17,8.76l2.12-2.12a5,5,0,0,1,7.07,0h0a5,5,0,0,1,0,7.07l-2.12,2.12" class="path"></path><path d="M15.83,17.24l-2.12,2.12a5,5,0,0,1-7.07,0h0a5,5,0,0,1,0-7.07l2.12-2.12" class="path"></path><line x1="10.17" y1="15.83" x2="15.83" y2="10.17" class="path"></line></g></svg>
+                                        </a>
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-width:1.5px;}</style></defs><path class="path" d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path></svg>
+                                        </a>
+                                        <a href="">
+                                            <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><line x1="7" y1="7" x2="11.29" y2="11.29" class="path"></line><line x1="14.62" y1="14.62" x2="18.91" y2="18.91" class="path"></line><polyline points="7 15.57 7 19 10.43 19" class="path"></polyline><polyline points="15.57 19 19 19 19 15.57" class="path"></polyline><polyline points="10.43 7 7 7 7 10.43" class="path"></polyline><polyline points="19 10.43 19 7 15.57 7" class="path"></polyline><line x1="14.71" y1="11.29" x2="19" y2="7" class="path"></line><line x1="7" y1="19" x2="11.29" y2="14.71" class="path"></line></svg>
+                                        </a>
+                                    </div>
+                                    <div class="infomation-text">
+                                        <a href="">
+                                        <h5>Baby Robe Panda Space</h5>
+                                        </a>
+                                        <div class="color-infomation-text">
+                                            <ul>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: black;"></span>
+                                                    </a>
+                                                </li>
+                                                <!-- <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #773D49;"></span>
+                                                    </a>
+                                                </li> -->
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #EEDCD8"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="color-li">
+                                                    <a href="">
+                                                        <span class="color-span" style="background-color: #5A3652"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    <!-- <span class="odd">$15.00</span> -->
+                                    <span class="new">$35.00</span>
+                                </span>
+                            </li>
+                                            </ul>
+                                            <ul>
+                                                <li class="container--product-item-deatails-li">
+                                                    <div class="frame-product">
+                                                        <!-- <span class="onSale">On Sale</span> -->
+                                                        <div class="image">
+                                                            <a href="">
+                                                                <img class="img-hover" src="./img/babyshop-product7a.webp" alt="babyshop-product7a.webp">
+                                                                <img  src="./img/babyshop-product7b.webp" alt="babyshop-product7b.webp">
+                                                            </a>
+                                                        </div>
+                                                        <div class="img-link">
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><path d="M10.17,8.76l2.12-2.12a5,5,0,0,1,7.07,0h0a5,5,0,0,1,0,7.07l-2.12,2.12" class="path"></path><path d="M15.83,17.24l-2.12,2.12a5,5,0,0,1-7.07,0h0a5,5,0,0,1,0-7.07l2.12-2.12" class="path"></path><line x1="10.17" y1="15.83" x2="15.83" y2="10.17" class="path"></line></g></svg>
+                                                            </a>
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-width:1.5px;}</style></defs><path class="path" d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path></svg>
+                                                            </a>
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><line x1="7" y1="7" x2="11.29" y2="11.29" class="path"></line><line x1="14.62" y1="14.62" x2="18.91" y2="18.91" class="path"></line><polyline points="7 15.57 7 19 10.43 19" class="path"></polyline><polyline points="15.57 19 19 19 19 15.57" class="path"></polyline><polyline points="10.43 7 7 7 7 10.43" class="path"></polyline><polyline points="19 10.43 19 7 15.57 7" class="path"></polyline><line x1="14.71" y1="11.29" x2="19" y2="7" class="path"></line><line x1="7" y1="19" x2="11.29" y2="14.71" class="path"></line></svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="infomation-text">
+                                                            <a href="">
+                                                            <h5>Baby Robe Let’s play</h5>
+                                                            </a>
+                                                            <div class="color-infomation-text">
+                                                                <ul>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #3A6380;"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #773D49;"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #BC2A32"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #EDC582"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span class="price">
+                                                        <!-- <span class="odd">$15.00</span> -->
+                                                        <span class="new">$10.00</span>
+                                                    </span>
+                                                </li>
+                                                <li class="container--product-item-deatails-li">
+                                                    <div class="frame-product">
+                                                        <span class="onSale">On Sale</span>
+                                                        <div class="image">
+                                                            <a href="">
+                                                                <img class="img-hover" src="./img/babyshop-product9b-600x750.webp" alt="babyshop-product9c-600x750.webp">
+                                                                <img  src="./img/babyshop-product9c-600x750.webp" alt="babyshop-product9c-600x750.webp">
+                                                            </a>
+                                                        </div>
+                                                        <div class="img-link">
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><path d="M10.17,8.76l2.12-2.12a5,5,0,0,1,7.07,0h0a5,5,0,0,1,0,7.07l-2.12,2.12" class="path"></path><path d="M15.83,17.24l-2.12,2.12a5,5,0,0,1-7.07,0h0a5,5,0,0,1,0-7.07l2.12-2.12" class="path"></path><line x1="10.17" y1="15.83" x2="15.83" y2="10.17" class="path"></line></g></svg>
+                                                            </a>
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-width:1.5px;}</style></defs><path class="path" d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path></svg>
+                                                            </a>
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><line x1="7" y1="7" x2="11.29" y2="11.29" class="path"></line><line x1="14.62" y1="14.62" x2="18.91" y2="18.91" class="path"></line><polyline points="7 15.57 7 19 10.43 19" class="path"></polyline><polyline points="15.57 19 19 19 19 15.57" class="path"></polyline><polyline points="10.43 7 7 7 7 10.43" class="path"></polyline><polyline points="19 10.43 19 7 15.57 7" class="path"></polyline><line x1="14.71" y1="11.29" x2="19" y2="7" class="path"></line><line x1="7" y1="19" x2="11.29" y2="14.71" class="path"></line></svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="infomation-text">
+                                                            <a href="">
+                                                            <h5>Baby Set Little Family</h5>
+                                                            </a>
+                                                            <div class="color-infomation-text">
+                                                                <ul>
+                                                                    <!-- <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #3A6380;"></span>
+                                                                        </a>
+                                                                    </li> -->
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #773D49;"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #BC2A32"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #EDC582"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span class="price">
+                                                        <span class="odd">$22.00</span>
+                                                        <span class="new">$19.00</span>
+                                                    </span>
+                                                </li>
+                                                <li class="container--product-item-deatails-li">
+                                                    <div class="frame-product">
+                                                        <!-- <span class="onSale">On Sale</span> -->
+                                                        <div class="image">
+                                                            <a href="">
+                                                                <img class="img-hover" src="./img/babyshop-product3a-600x750.webp" alt="babyshop-product3a-600x750.webp">
+                                                                <img  src="./img/babyshop-product3b-600x750.webp" alt="babyshop-product3b-600x750.webp">
+                                                            </a>
+                                                        </div>
+                                                        <div class="img-link">
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><path d="M10.17,8.76l2.12-2.12a5,5,0,0,1,7.07,0h0a5,5,0,0,1,0,7.07l-2.12,2.12" class="path"></path><path d="M15.83,17.24l-2.12,2.12a5,5,0,0,1-7.07,0h0a5,5,0,0,1,0-7.07l2.12-2.12" class="path"></path><line x1="10.17" y1="15.83" x2="15.83" y2="10.17" class="path"></line></g></svg>
+                                                            </a>
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-width:1.5px;}</style></defs><path class="path" d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path></svg>
+                                                            </a>
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><line x1="7" y1="7" x2="11.29" y2="11.29" class="path"></line><line x1="14.62" y1="14.62" x2="18.91" y2="18.91" class="path"></line><polyline points="7 15.57 7 19 10.43 19" class="path"></polyline><polyline points="15.57 19 19 19 19 15.57" class="path"></polyline><polyline points="10.43 7 7 7 7 10.43" class="path"></polyline><polyline points="19 10.43 19 7 15.57 7" class="path"></polyline><line x1="14.71" y1="11.29" x2="19" y2="7" class="path"></line><line x1="7" y1="19" x2="11.29" y2="14.71" class="path"></line></svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="infomation-text">
+                                                            <a href="">
+                                                            <h5>Duvet Cover Set Be Brave</h5>
+                                                            </a>
+                                                            <div class="color-infomation-text">
+                                                                <ul>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: black;"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #773D49;"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #EEDCD8"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #EDC582"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span class="price">
+                                                        <!-- <span class="odd">$22.00</span> -->
+                                                        <span class="new">$15.00</span>
+                                                    </span>
+                                                </li>
+                                                <li class="container--product-item-deatails-li">
+                                                    <div class="frame-product">
+                                                        <!-- <span class="onSale">On Sale</span> -->
+                                                        <div class="image">
+                                                            <a href="">
+                                                                <img class="img-hover" src="./img/babyshop-product6a-600x750.webp" alt="babyshop-product6a-600x750.webp">
+                                                                <img  src="./img/babyshop-product6b-600x750.webp" alt="babyshop-product6b-600x750.webp">
+                                                            </a>
+                                                        </div>
+                                                        <div class="img-link">
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><g><path d="M10.17,8.76l2.12-2.12a5,5,0,0,1,7.07,0h0a5,5,0,0,1,0,7.07l-2.12,2.12" class="path"></path><path d="M15.83,17.24l-2.12,2.12a5,5,0,0,1-7.07,0h0a5,5,0,0,1,0-7.07l2.12-2.12" class="path"></path><line x1="10.17" y1="15.83" x2="15.83" y2="10.17" class="path"></line></g></svg>
+                                                            </a>
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-width:1.5px;}</style></defs><path class="path" d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path></svg>
+                                                            </a>
+                                                            <a href="">
+                                                                <svg class="icon-item-product" viewBox="0 0 26 26"><defs><style>.path{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><line x1="7" y1="7" x2="11.29" y2="11.29" class="path"></line><line x1="14.62" y1="14.62" x2="18.91" y2="18.91" class="path"></line><polyline points="7 15.57 7 19 10.43 19" class="path"></polyline><polyline points="15.57 19 19 19 19 15.57" class="path"></polyline><polyline points="10.43 7 7 7 7 10.43" class="path"></polyline><polyline points="19 10.43 19 7 15.57 7" class="path"></polyline><line x1="14.71" y1="11.29" x2="19" y2="7" class="path"></line><line x1="7" y1="19" x2="11.29" y2="14.71" class="path"></line></svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="infomation-text">
+                                                            <a href="">
+                                                            <h5>Baby Robe A big dream</h5>
+                                                            </a>
+                                                            <div class="color-infomation-text">
+                                                                <ul>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: black;"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <!-- <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #773D49;"></span>
+                                                                        </a>
+                                                                    </li> -->
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #EEDCD8"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="color-li">
+                                                                        <a href="">
+                                                                            <span class="color-span" style="background-color: #5A3652"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <span class="price">
+                                                        <!-- <span class="odd">$15.00</span> -->
+                                                        <span class="new">$18.00</span>
+                                                    </span>
+                                                </li>
+                                                                </ul>
+                                        </div>
+                                    </div>
+                    <div class="button-catalog">
+                        <a href="">
+                            <span class="btn-cattalog-hover">GO TO SHOP</span>
+                        </a>
+                        <a href="">
+                            <span class="btn-cattalog-hover2">SEE PROMOTIONS</span>
+                        </a>
+                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sale-holiday">
+                <div class="banner-sale-left">
+                    <div class="container-banner-sale-left">
+                        <div class="banner-sale-text-content">
+                            <h6>LIMITED OFFER</h6>
+                            <div class="div-h2">
+                            <h2 class="banner-sale-text-content-h2">-50%</h2>
+                            <h2 class="banner-sale-text-content-h2-2">Holiday <br> Sale</h2>
+                            </div>
+                        </div>
+                        <div class="container-banner-sale-bottom-item">
+                            <div class="banner-sale-bottom-item">
+                                <div class="number">00</div>
+                                <h3>days</h3>
+                                <hr>
+                            </div>
+                            <div class="banner-sale-bottom-item">
+                                <div class="number">00</div>
+                                <h3>hours</h3>
+                                <hr>
+                            </div>
+                            <div class="banner-sale-bottom-item">
+                                <div class="number">00</div>
+                                <h3>minutes</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-sale-right">
+                    <div class="container-title-item">
+                        <div class="container-tile">
+                            <h6>USE DISCOUNTS AND PROMOTIONS</h6>
+                            <h2>Special <span>Offers</span></h2>
+                        </div>
+                        <div class="div-slider">
+                            <a href="" class="">
+                                <img class="img01" src="img/babyshop-bebear.webp" alt="babyshop-bebear.webp">
+                            <h3>Win a big</h3>
+                            <img class="img-text-small" src="./img/babyshop-beteddybear.png" alt="babyshop-beteddybear.png">
+                            </a>
+                            <a href="" class="">
+                                <img class="img01" src="img/babyshop-giftcart.webp" alt="babyshop-giftcart.webp">
+                                <h3>Gift card with benefits </h3>
+                                <img class="img-text-small" src="./img/babyshop-befriends.png" alt="babyshop-befriends.png">
+                            </a>
+                        </div>
+                        <div class="btn-click">
+                            <img class="btn-img btn-img-left" src="/img/right-arrow2.png" alt="right-arrow2.png">
+                            <img class="btn-img btn-img-right" src="/img/right-arrow - Copy.png" alt="right-arrow - Copy.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+        </section>
+    </section>
+    <script src="./js/js.min.js"></script>
+    <script src="./js/js-deatais-js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
+</body>
+
+
+
+</html>
